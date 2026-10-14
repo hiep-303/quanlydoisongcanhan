@@ -128,20 +128,9 @@ npm run dev
 
 ---
 
-## 5. Tài khoản dùng thử (Demo Accounts)
 
-Hệ thống đã nạp sẵn dữ liệu thực tế và tài khoản thử nghiệm:
 
-| Tài khoản | Email | Mật khẩu | Quyền hạn |
-|---|---|---|---|
-| **Người dùng mẫu (Demo User)** | `user@lifehub.vn` | `User@123` | Quản lý toàn bộ đời sống cá nhân (công việc, thói quen, ngân sách...) |
-| **Quản trị viên (Admin)** | `admin@lifehub.vn` | `Admin@123` | Quản trị hệ thống, khóa/mở khóa tài khoản, phân quyền, xem audit log |
-
-*(Trang đăng nhập cũng tích hợp 2 nút bấm nhanh **"Demo User"** và **"Admin"** để thuận tiện kiểm thử một chạm).*
-
----
-
-## 6. Danh mục 20 trang giao diện bắt buộc
+## 5. Danh mục 20 trang giao diện bắt buộc
 
 1. **Trang giới thiệu** (`/`)
 2. **Đăng nhập** (`/login`)
@@ -166,7 +155,7 @@ Hệ thống đã nạp sẵn dữ liệu thực tế và tài khoản thử ngh
 
 ---
 
-## 7. Danh sách API Backend chính (`/api`)
+## 6. Danh sách API Backend chính (`/api`)
 
 - **Xác thực:**
   - `POST /api/auth/register`: Đăng ký tài khoản
@@ -214,7 +203,7 @@ Hệ thống đã nạp sẵn dữ liệu thực tế và tài khoản thử ngh
 
 ---
 
-## 8. Trạng thái kiểm thử nghiệm thu (Checklist)
+## 7. Trạng thái kiểm thử nghiệm thu (Checklist)
 
 - [x] Có đầy đủ mã nguồn frontend và backend theo cấu trúc chuẩn.
 - [x] Cơ sở dữ liệu SQLite thật (`app.db`), bảng quan hệ, indexes và foreign keys.
